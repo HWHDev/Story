@@ -7,3 +7,11 @@ tombol.addEventListener('click', function(){
         h1.style.color = "red"
     }
 })
+
+tombol.addEventListener("dblclick", ()=>{
+    if(h1.style.display == "flex"){
+        h1.style.display = "none"
+    }else{
+        h1.style.display = "flex"
+    }
+})
